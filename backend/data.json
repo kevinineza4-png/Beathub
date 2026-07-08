@@ -1,0 +1,436 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Kevin Ineza",
+      "email": "kevinineza4@gmail.com",
+      "password": "kevin123",
+      "role": "admin",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    },
+    {
+      "id": 2,
+      "name": "Artist Demo",
+      "email": "artist@beathub.com",
+      "password": "artist123",
+      "role": "artist",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    },
+    {
+      "id": 3,
+      "name": "User Demo",
+      "email": "user@beathub.com",
+      "password": "user123",
+      "role": "user",
+      "profileImage": "",
+      "resetCode": "636991",
+      "resetCodeExpiry": 1783525629174
+    },
+    {
+      "id": 1783515608446,
+      "name": "kevin",
+      "email": "kevinineza4@gmail.com",
+      "password": "123",
+      "role": "admin",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    },
+    {
+      "id": 1783515678350,
+      "name": "kevin",
+      "email": "kevinineza@gmail.com",
+      "password": "2009",
+      "role": "user",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    },
+    {
+      "id": 1783515729675,
+      "name": "kevin",
+      "email": "kevinineza1@gmail.com",
+      "password": "1234",
+      "role": "artist",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    },
+    {
+      "id": 1783519151551,
+      "name": "ella",
+      "email": "ella@gmail.com",
+      "password": "ella123",
+      "role": "user",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    },
+    {
+      "id": 1783519236393,
+      "name": "bely",
+      "email": "bely@gmail.com",
+      "password": "bely123",
+      "role": "artist",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    },
+    {
+      "id": 1783523512848,
+      "name": "john",
+      "email": "john@gmail.co",
+      "password": "john123",
+      "role": "user",
+      "profileImage": "",
+      "resetCode": "",
+      "resetCodeExpiry": null
+    }
+  ],
+  "songs": [
+    {
+      "id": 1783523213501,
+      "title": "yooo",
+      "artist": "bely",
+      "artistId": "1783519236393",
+      "album": "New Upload",
+      "genre": "rnb",
+      "cover": "/uploads/1783523213496-Study.jpg",
+      "duration": "3:00",
+      "likes": 0,
+      "downloads": 6,
+      "description": "nkohoooo",
+      "audioUrl": "/uploads/1783523213306-Dave---Raindance-(ft.-Tems).mp3"
+    },
+    {
+      "id": 1783521747064,
+      "title": "ngwino",
+      "artist": "bely",
+      "artistId": "1783519236393",
+      "album": "New Upload",
+      "genre": "rap",
+      "cover": "/uploads/1783521747060-Bk-Arena.jpg",
+      "duration": "3:00",
+      "likes": 0,
+      "downloads": 2,
+      "description": "ni iya nge gusa",
+      "audioUrl": "/uploads/1783521746850-Dark-D--MSK-(Official-Audio).mp3"
+    },
+    {
+      "id": 1783521437439,
+      "title": "Test Upload",
+      "artist": "Demo Artist",
+      "artistId": "2",
+      "album": "New Upload",
+      "genre": "Pop",
+      "cover": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=600&q=80",
+      "duration": "3:00",
+      "likes": 0,
+      "downloads": 0,
+      "description": "Uploaded from the app",
+      "audioUrl": "/uploads/1783521437434-dummy-song.mp3"
+    },
+    {
+      "id": 1783519293095,
+      "title": "crazy",
+      "artist": "bely",
+      "artistId": 1783519236393,
+      "album": "New Upload",
+      "genre": "amapiano",
+      "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+      "duration": "3:00",
+      "likes": 0,
+      "downloads": 1,
+      "description": "this song is about love and vides"
+    },
+    {
+      "id": 1,
+      "title": "Midnight Pulse",
+      "artist": "Mina Sol",
+      "artistId": 2,
+      "album": "Neon Nights",
+      "genre": "Afrobeats",
+      "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+      "duration": "3:42",
+      "likes": 18500,
+      "downloads": 2600,
+      "description": "A slick Afro-pop anthem with a deep bassline."
+    },
+    {
+      "id": 2,
+      "title": "Ocean Echo",
+      "artist": "Kairo Lane",
+      "artistId": 2,
+      "album": "Blue Horizon",
+      "genre": "Pop",
+      "cover": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=600&q=80",
+      "duration": "4:12",
+      "likes": 13200,
+      "downloads": 1450,
+      "description": "A bright and uplifting pop single."
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Mina Sol",
+      "genre": "Afrobeats",
+      "followers": "120k",
+      "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Kairo Lane",
+      "genre": "Pop",
+      "followers": "84k",
+      "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "Neon Nights",
+      "artist": "Mina Sol",
+      "genre": "Afrobeats",
+      "year": "2024",
+      "cover": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
+      "songs": 12
+    },
+    {
+      "id": 2,
+      "title": "Blue Horizon",
+      "artist": "Kairo Lane",
+      "genre": "Pop",
+      "year": "2025",
+      "cover": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=600&q=80",
+      "songs": 10
+    }
+  ],
+  "genres": [
+    "Hip Hop",
+    "Afrobeats",
+    "R&B",
+    "Pop",
+    "Gospel",
+    "Jazz",
+    "Reggae",
+    "Amapiano"
+  ],
+  "playlists": [
+    {
+      "id": 1,
+      "title": "Late Night Vibes",
+      "tracks": 18,
+      "owner": "Alicia"
+    },
+    {
+      "id": 2,
+      "title": "Focus Flow",
+      "tracks": 12,
+      "owner": "Noah"
+    }
+  ],
+  "downloads": [
+    {
+      "id": 1783521567336,
+      "songId": 1783519293095,
+      "userId": null,
+      "at": "2026-07-08T14:39:27.336Z"
+    },
+    {
+      "id": 1783523084199,
+      "songId": 1783521747064,
+      "userId": null,
+      "at": "2026-07-08T15:04:44.199Z"
+    },
+    {
+      "id": 1783523086083,
+      "songId": 1783521747064,
+      "userId": null,
+      "at": "2026-07-08T15:04:46.083Z"
+    },
+    {
+      "id": 1783523521291,
+      "songId": 1783523213501,
+      "userId": 1783523512848,
+      "at": "2026-07-08T15:12:01.291Z"
+    },
+    {
+      "id": 1783523522511,
+      "songId": 1783523213501,
+      "userId": 1783523512848,
+      "at": "2026-07-08T15:12:02.511Z"
+    },
+    {
+      "id": 1783523523093,
+      "songId": 1783523213501,
+      "userId": 1783523512848,
+      "at": "2026-07-08T15:12:03.093Z"
+    },
+    {
+      "id": 1783523523300,
+      "songId": 1783523213501,
+      "userId": 1783523512848,
+      "at": "2026-07-08T15:12:03.300Z"
+    },
+    {
+      "id": 1783523530162,
+      "songId": 1783523213501,
+      "userId": 1783523512848,
+      "at": "2026-07-08T15:12:10.162Z"
+    },
+    {
+      "id": 1783524916148,
+      "songId": 1783523213501,
+      "userId": 1783523512848,
+      "at": "2026-07-08T15:35:16.148Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1783525257426,
+      "text": "Admin portal accessed"
+    },
+    {
+      "id": 1783524916151,
+      "text": "Song downloaded: yooo"
+    },
+    {
+      "id": 1783523530165,
+      "text": "Song downloaded: yooo"
+    },
+    {
+      "id": 1783523523303,
+      "text": "Song downloaded: yooo"
+    },
+    {
+      "id": 1783523523096,
+      "text": "Song downloaded: yooo"
+    },
+    {
+      "id": 1783523522514,
+      "text": "Song downloaded: yooo"
+    },
+    {
+      "id": 1783523521294,
+      "text": "Song downloaded: yooo"
+    },
+    {
+      "id": 1783523512849,
+      "text": "john registered"
+    },
+    {
+      "id": 1783523366606,
+      "text": "Admin portal accessed"
+    },
+    {
+      "id": 1783523213503,
+      "text": "bely uploaded yooo"
+    },
+    {
+      "id": 1783523111833,
+      "text": "bely signed in"
+    },
+    {
+      "id": 1783523086086,
+      "text": "Song downloaded: ngwino"
+    },
+    {
+      "id": 1783523084202,
+      "text": "Song downloaded: ngwino"
+    },
+    {
+      "id": 1783522991786,
+      "text": "Admin portal accessed"
+    },
+    {
+      "id": 1783522850559,
+      "text": "User Demo signed in"
+    },
+    {
+      "id": 1783521986586,
+      "text": "ella signed in"
+    },
+    {
+      "id": 1783521802327,
+      "text": "ella signed in"
+    },
+    {
+      "id": 1783521747066,
+      "text": "bely uploaded ngwino"
+    },
+    {
+      "id": 1783521677434,
+      "text": "bely signed in"
+    },
+    {
+      "id": 1783521608475,
+      "text": "ella signed in"
+    },
+    {
+      "id": 1783521567339,
+      "text": "Song downloaded: crazy"
+    },
+    {
+      "id": 1783521437441,
+      "text": "Demo Artist uploaded Test Upload"
+    },
+    {
+      "id": 1783520623186,
+      "text": "bely signed in"
+    },
+    {
+      "id": 1783519330000,
+      "text": "ella signed in"
+    },
+    {
+      "id": 1783519293097,
+      "text": "bely uploaded crazy"
+    },
+    {
+      "id": 1783519236394,
+      "text": "bely registered"
+    },
+    {
+      "id": 1783519151552,
+      "text": "ella registered"
+    },
+    {
+      "id": 1783518956512,
+      "text": "Admin portal accessed"
+    },
+    {
+      "id": 1783518388031,
+      "text": "Admin portal accessed"
+    },
+    {
+      "id": 1783517386929,
+      "text": "User Demo signed in"
+    },
+    {
+      "id": 1783516189265,
+      "text": "kevin signed in"
+    },
+    {
+      "id": 1783515729676,
+      "text": "kevin registered"
+    },
+    {
+      "id": 1783515678351,
+      "text": "kevin registered"
+    },
+    {
+      "id": 1783515608447,
+      "text": "kevin registered"
+    },
+    {
+      "id": 1,
+      "text": "Admin opened BeatHub"
+    }
+  ],
+  "reports": []
+}

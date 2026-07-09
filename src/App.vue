@@ -236,7 +236,7 @@ const loadCatalog = async () => {
 
 const loadProfiles = async () => {
   try {
-    const usersResponse = await api.get('/admin/users')
+    const usersResponse = await api.get('/api/admin/users')
     allUsers.value = usersResponse.data.users || []
     adminUsers.value = usersResponse.data.users || []
   } catch {
@@ -257,7 +257,7 @@ const submitAuth = async () => {
     let payload = { email: authForm.email, password: authForm.password }
 
     if (accessType.value === 'admin') {
-      const { data } = await api.post('/auth/admin/login', payload)
+      const { data } = await api.post('/api/auth/admin/login', payload)
       storeUser(data.user)
       await loadCatalog()
       await loadAdminStats()
@@ -266,7 +266,7 @@ const submitAuth = async () => {
       return
     }
 
-    const endpoint = authMode.value === 'register' ? '/auth/register' : '/auth/login'
+    const endpoint = authMode.value === 'register' ? '/api/auth/register' : '/api/auth/login'
     if (authMode.value === 'register') {
       payload = { name: authForm.name, email: authForm.email, password: authForm.password, role: authForm.role === 'listener' ? 'user' : authForm.role }
     } else {

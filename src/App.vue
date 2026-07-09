@@ -2,7 +2,7 @@
 import { computed, onMounted, reactive, ref } from 'vue'
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'http://localhost:3001/api' })
+const api = axios.create({ baseURL: 'https://beathub-api-11ux.onrender.com' })
 
 const currentPage = ref('auth')
 const accessType = ref('listener')
@@ -364,7 +364,7 @@ const downloadSong = async (song) => {
     song.downloads = data.song.downloads
     downloadHistory.value = [song, ...downloadHistory.value.filter((item) => item.id !== song.id)].slice(0, 8)
     if (song.audioUrl) {
-      const sourceUrl = song.audioUrl.startsWith('http') ? song.audioUrl : `http://localhost:3001${song.audioUrl}`
+      const sourceUrl = song.audioUrl.startsWith('http') ? song.audioUrl : `https://beathub-api-11ux.onrender.com${song.audioUrl}`
       const link = document.createElement('a')
       link.href = sourceUrl
       link.download = `${song.title.replace(/\s+/g, '_')}.mp3`
